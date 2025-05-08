@@ -1,0 +1,15 @@
+# .env : 
+- API-KEY : api키 저장(together api 등등)
+- SYSTEM_MESSAGE : 챗봇 성격 저장
+
+# main.py : 챗봇 코드 작성
+- role : 대화 상대 구분
+=> role 종류 : 1)user 2)assistant 3)user
+
+# chat_groq : 챗봇 모델 설정
+- HEADER : API 서버와 통신할 때 필요한 HTTP 통신 규약
+application/json => JSON 포맷 (대부분의 REST API에서 표준)
+
+
+# 설치한 것들 ;
+pip install openai python-dotenv
